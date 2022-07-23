@@ -1,0 +1,346 @@
+{
+    "Sections":
+        [
+            {"Porfolio":
+                [       
+                        {"Projects":
+                                [
+                                    {"spliticist.io": 
+                                            {
+                                                "link":"www.google.com",
+                                                "subscript":"Split Tracking Service",
+                                                "ShowPDF":"True",
+                                                "Image":"image",
+                                                "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                                "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",               
+                                                "skills":
+                                            
+                                                {
+                                                    "Backend":
+                                                        {
+                                                        "Django":{}
+                                                        },
+                                                    "Frontend":
+                                                        {
+                                                        "React":{},
+                                                        "React-Bootstrap":{}
+                                                        },
+                                                    "Deployment":
+                                                        {
+                                                        "Amazon Web Services":
+                                                            {
+                                                            "EC2":{},
+                                                            "Elastic Load Balancer":{}
+                                                            }
+                                                        }
+                                                }
+                                            
+                                            }
+                                    },
+                                    {"Instagram Bot": 
+                                        {
+                                            "link":"www.google.com",
+                                            "subscript":"Sports Team website",
+                                            "ShowPDF":"True",
+                                            "Image":"image",
+                                            "client":
+                                                {
+                                                    "name":"Cosmetics For Change",
+                                                    "profession":"Skincare Organization",
+                                                    "email":"c4c@gmail.com"
+                                                },
+                                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",               
+                                            "skills":
+                                        
+                                            {
+                                                "Backend":
+                                                    {
+                                                    "Django":{}
+                                                    },
+                                                "Frontend":
+                                                    {
+                                                    "React":{},
+                                                    "React-Bootstrap":{}
+                                                    },
+                                                "Deployment":
+                                                    {
+                                                    "Amazon Web Services":
+                                                        {
+                                                        "EC2":{},
+                                                        "Elastic Load Balancer":{}
+                                                        }
+                                                    }
+                                            }
+                                        
+                                        }
+                                }
+                                ]},
+                        {"Personal Projects":
+                            [
+                                {"www.spliticist.com": 
+                                    {
+                                        "link":"www.google.com",
+                                        "subscript":"Image file processor",
+                                        "ShowPDF":"True",
+                                        "Image":"image",
+                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "links":
+                                            [
+                                                {"Github":"www.github.com"}
+                                            ],                
+                                        "skills":
+                                            
+                                            {
+                                                "Backend":
+                                                    {
+                                                    "Django":{}
+                                                    },
+                                                "Frontend":
+                                                    {
+                                                    "React":{},
+                                                    "React-Bootstrap":{}
+                                                    },
+                                                "Deployment":
+                                                    {
+                                                    "Amazon Web Services":
+                                                        {
+                                                        "EC2":{},
+                                                        "Elastic Load Balancer":{}
+                                                        }
+                                                    }
+                                            }
+                                    
+                                    }
+                                }
+                            ]},
+                        {"Team Projects":
+                            [
+                                {"www.h4h.com": 
+                                    {
+                                        "link":"www.google.com",
+                                        "subscript":"Healthcare Organization website",
+                                        "ShowPDF":"True",
+                                        "Image":"image",
+                                        "client":
+                                            {
+                                                "name":"H4H clinic",
+                                                "profession":"Clinic",
+                                                "email":"wbr@gmail.com"
+                                            },
+                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",             
+                                        "skills":
+                                            
+                                            {
+                                                "Backend":
+                                                    {
+                                                    "Django":{}
+                                                    },
+                                                "Frontend":
+                                                    {
+                                                    "React":{},
+                                                    "React-Bootstrap":{}
+                                                    },
+                                                "Deployment":
+                                                    {
+                                                    "Amazon Web Services":
+                                                        {
+                                                        "EC2":{},
+                                                        "Elastic Load Balancer":{}
+                                                        }
+                                                    }
+                                            }
+                                    
+                                    }
+                                },
+                                {"3D BioPrinter Firmware": 
+                                    {
+                                        "ShowPDF":"True",
+                                        "Image":"image",
+                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "links":
+                                            [
+                                                
+                                                {"Github":"www.github.com"}
+                                                
+                                            ],                
+                                            "skills":
+                                            
+                                            {
+                                                "Backend":
+                                                    {
+                                                    "Django":{}
+                                                    },
+                                                "Frontend":
+                                                    {
+                                                    "React":{},
+                                                    "React-Bootstrap":{}
+                                                    },
+                                                "Deployment":
+                                                    {
+                                                    "Amazon Web Services":
+                                                        {
+                                                        "EC2":{},
+                                                        "Elastic Load Balancer":{}
+                                                        }
+                                                    }
+                                            }
+                                    
+                                    }
+                                }
+                            ]}                       
+                ]     
+            },
+            {"Experience": 
+                [
+                    {"UCD BioPrinter Team Lead": 
+                        {
+                            "ShowPDF":"True",
+                            "Image":"image",
+
+                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "links":
+                                [
+                                    
+                                    {"Github":"www.github.com"}
+                                    
+                                ],                
+                                "skills":
+                                            
+                                {
+                                    "Backend":
+                                        {
+                                        "Django":{}
+                                        },
+                                    "Frontend":
+                                        {
+                                        "React":{},
+                                        "React-Bootstrap":{}
+                                        },
+                                    "Deployment":
+                                        {
+                                        "Amazon Web Services":
+                                            {
+                                            "EC2":{},
+                                            "Elastic Load Balancer":{}
+                                            }
+                                        }
+                                }
+                        
+                        }
+                    },
+                    {"Knee Transplant Data Preparation": 
+                        {
+                            "ShowPDF":"True",
+                            "Image":"image",
+
+                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "links":
+                                [
+                                    
+                                    {"Hull Lab":"www.Hull Lab.com"}
+                                    
+                                ]                          
+                        }
+                    }                    
+                ]
+            },
+            {"Education":
+                [
+                    {"UC Davis": 
+                    
+                        {
+                            "subscript":"B.S, Computer Science",
+                            "ShowPDF":"True",
+                            "Image":"image",
+                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "links":
+                                [
+                                    
+                                    {"Transcript":"www.transcript.com"}
+                                    
+                                ]
+                        }
+                    }, 
+                    {"AWS certified developer": 
+                    
+                        {
+                            "subscript":"B.S, Computer Science",
+                            "ShowPDF":"True",
+                            "Image":"image",
+                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "links":
+                                [
+                                    
+                                    {"Transcript":"www.transcript.com"}
+                                    
+                                ]
+                        }
+                    }
+                ]   
+            }
+            
+                
+        ],
+    "Skills":
+        {
+            "Skills":
+                
+                    {
+                    "Backend-4":
+                        {
+                        "Django":{}
+                        },
+                    "Frontend-4":
+                        {
+                        "React":{},
+                        "React-Bootstrap":{}
+                        },
+                    "Database-3":
+                        {
+                        "PostGRES":{}
+                        },
+                    "Deployment-5":
+                        {
+                        "Amazon Web Services":
+                            {
+                            "EC2":{}, "Elastic Load Balancer":{},"Cloud Watch":{}, "RDS":{}
+                            },
+                        "Docker":{}
+                        },
+                    "Other":
+                        {
+                        "Source Control-3":
+                            {
+                            "Git/Github":{}
+                            }
+                        }
+                    }
+                ,
+            "Languages":
+            
+                {
+                "Python-5":
+                        {
+                        "Numpy":{},
+                        "Pandas":{}
+                        },
+                "Javascript-4":
+                        {
+                        "React":{},
+                        "React-Bootstrap":{}
+                        },
+                "HTML-3":{},
+                "CSS-2":{},
+                "C-2":{}
+                }
+            
+        }
+}
