@@ -8,9 +8,9 @@ import './Contact.css';
 import CustomSpinner from './Components/CustomSpinner';
 import AWS from 'aws-sdk';
 
-
+import credentials from '../../../credentials';
 // Create promise and SNS service object
-const publishTextPromise = new AWS.SNS({apiVersion: '2010-03-31', region: 'us-west-1', "accessKeyId":"AKIAZOKMYHIHFH2SM2O3" , "secretAccessKey": "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"})
+const publishTextPromise = new AWS.SNS(credentials)
 
 // Handle promise's fulfilled/rejected states
 function sendEm(obj, message){
