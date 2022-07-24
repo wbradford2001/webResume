@@ -5,8 +5,29 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Alert from 'react-bootstrap/Alert';
 import './Contact.css';
-import CustomSpinner from './Components/CustomSpinner'
+import CustomSpinner from './Components/CustomSpinner';
+import AWS from 'aws-sdk';
 
+
+// Create promise and SNS service object
+const publishTextPromise = new AWS.SNS({apiVersion: '2010-03-31', region: 'us-west-1', "accessKeyId":"AKIAZOKMYHIHFH2SM2O3" , "secretAccessKey": "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"})
+
+// Handle promise's fulfilled/rejected states
+function sendEm(obj, message){
+    const params = {
+        Message: message, /* required */
+        TopicArn: 'arn:aws:sns:us-west-1:649237903886:webresume'
+    };        
+    publishTextPromise.publish(params).promise().then(
+        function(data) {
+            obj.showModal(false)
+    }).catch(
+            function(err) {
+                obj.state.modalText = "Oops, an error occured, please try again later!"
+                obj.showModal(true)                    
+                console.error(err, err.stack);
+    });
+}
 
 class Contact extends React.Component{
     constructor(props){
@@ -64,32 +85,37 @@ class Contact extends React.Component{
     }
     sendPost(){
 
-        let xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://vlmtpqo1pe.execute-api.us-west-1.amazonaws.com/default/webresumeemail");
+        // let xhr = new XMLHttpRequest();
+        // xhr.open("POST", "https://vlmtpqo1pe.execute-api.us-west-1.amazonaws.com/default/webresumeemail");
         // xhr.setRequestHeader("Accept", "application/json");
-        xhr.setRequestHeader("Content-Type", "application/json");
+        // xhr.setRequestHeader("Content-Type", "application/json");
 
 
 
-        xhr.addEventListener(
-            'load', ()=>
-                {
+        // xhr.addEventListener(
+        //     'load', ()=>
+        //         {
 
-                    this.showModal(false)
-                }
-        ) 
-        xhr.addEventListener(
-            'error', ()=>
-                {
-                    this.state.modalText = "Oops, an error occured, please try again later!"
-                    this.showModal(true)
-                }
-        )                  
+        //             this.showModal(false)
+        //         }
+        // ) 
+        // xhr.addEventListener(
+        //     'error', ()=>
+        //         {
+        //             this.state.modalText = "Oops, an error occured, please try again later!"
+        //             this.showModal(true)
+        //         }
+        // )                  
 
-        let data = `{"username": "${this.state.emailVal}","mes": "${this.state.messageVal}"}`;
+        // let data = `{"username": "${this.state.emailVal}","mes": "${this.state.messageVal}"}`;
         // let data = '{"username": "Usy","mes": "Messy"}';
 
-        xhr.send(data);
+       // xhr.send(data);
+
+
+        // AWS.config.update([{ "accessKeyId":"AKIAZOKMYHIHFH2SM2O3", "secretAccessKey": "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", "region": "us-west-1" }])
+        sendEm(this, `email: ${this.state.emailVal}, message: ${this.state.messageVal}`)    
+        
     }
     sendEmail(event){
         event.preventDefault();
@@ -195,4 +221,6 @@ class Contact extends React.Component{
         )
     }
 }
+
+
 export default Contact;
