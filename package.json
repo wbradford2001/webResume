@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn run build && aws s3 sync build/ s3://web-resume-manual && aws cloudfront create-invalidation --distribution-id E3M66F2AGR0CGJ --path '/*'"
+    "deploy": "yarn run build && aws s3 sync build/ s3://web-resume-manual && aws cloudfront create-invalidation --distribution-id E3M66F2AGR0CGJ --path '/*' && git add . && git commit -m 'Commit message' && git push origin main"
   },
   "eslintConfig": {
     "extends": [
