@@ -37,7 +37,13 @@
                                                 "links":
                                                     [
                                                         
-                                                        {"Github Repository":"https://github.com/wbradford2001/spliticist"}
+                                                        {
+                                                            "Github Repository":
+                                                                {
+                                                                    "link":"https://github.com/wbradford2001/spliticist",
+                                                                    "download":""
+                                                                }
+                                                        }
                                                         
                                                     ]   
                                             
@@ -73,7 +79,7 @@
                                             "links":
                                                 [
                                                     
-                                                    {"Github Repository":"https://github.com/wbradford2001/webResume"}
+                                                    {"Github Repository":{"link":"https://github.com/wbradford2001/webResume","download":""}}
                                                     
                                                 ] 
                                         
@@ -98,8 +104,9 @@
                                         "Advanced Text":"Given an account you want to gain followers for, you select a similar account and scrape all of the followers of the similar account. You then visit each followers page, liking the first 3 posts. Upon seeing the account popup on their instagram for liking their photos, the thinking is that since they already follow a similar account, they are likely to follow your account when they come across it. This program was used to gain @spartan_sportsmedicine account to 800 followers in just 42 days (Spartan Programs no longer sells workout programs so they opted to discontinue). It runs with 2 EC2 instances. One instace scrapes followers and pushes them to a AWS SQS. Another instance polls the qeueu and likes posts with selenium web driver.",
                                         "links":
                                             [
-                                                {"Spartan Sports Medicine Instagram":"https://www.instagram.com/spartan_sportsmedicine/"},
-                                                {"Github":"https://github.com/wbradford2001/SpartanIGBot"}
+                                                {"Spartan Sports Medicine Instagram":{"link":"https://www.instagram.com/spartan_sportsmedicine/","download":""}
+                                                },
+                                                {"Github":{"link":"https://github.com/wbradford2001/SpartanIGBot","download":""}}
                                             ],                
                                         "skills":
                                             
@@ -135,8 +142,17 @@
                                         "links":
                                             [
                                                 
-                                                {"Github":"https://github.com/wbradford2001/BioPrinterUCDavis"},
-                                                {"BioInnovation HomePage": "https://bigucd.com/programs/research"}
+                                                {"Github":
+                                                    {
+                                                        "link":"https://github.com/wbradford2001/BioPrinterUCDavis",
+                                                        "download":""
+                                                    }
+                                                },
+                                                {"BioInnovation HomePage":      
+                                                {"link":"https://bigucd.com/programs/research",
+                                                "download":""
+                                                }
+                                                }
                                                 
                                             ],                
                                             "skills":
@@ -158,12 +174,12 @@
                             "ShowPDF":"True",
                             "Image":"image",
 
-                            "Basic Text":"As Team lead of the Electric Team, I was responsible for our team congifuring the electronics and software of the arduio processor on the printer(See above section in portfolio)",
+                            "Basic Text":"As Team lead of the Electric Team, I was responsible for our team configuring the electronics and software of the arduino processor on the printer(See above section in portfolio)",
                             "Advanced Text":"My activities as Team Lead included holding team meetings and building the printer. We used a MonoPrice Mini Printer, stripped the extruder, reset the processor, and uploaded our own software(we used marlin firmware, a popular 3D printing library) to the printer. The motors, kinematics, and everything else works just fine, and we are sorting out the details of extruding the filament",
                             "links":
                                 [
                                     
-                                    {"BioInnovation HomePage": "https://bigucd.com/programs/research"}
+                                    {"BioInnovation HomePage":  {"link":"https://bigucd.com/programs/research","download":""}}
                                     
                                 ]
                         
@@ -190,7 +206,18 @@
                             "ShowPDF":"True",
                             "Image":"image",
                             "Basic Text":"",
-                            "Advanced Text":"Achieved on July 20, 2022"
+                            "Advanced Text":"Achieved on July 20, 2022",
+                            "links":
+                            [
+                                
+                                {"Certification PDF": 
+                                    {
+                                        "link":"../AWSCert.pdf", 
+                                        "download":"William Bradford AWS Developer Cert"
+                                    }
+                                }
+                                
+                            ]
 
                         }
                     }

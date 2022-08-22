@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 import threshold from '../../../../responsive'
 
+
 class Section extends React.Component{
     constructor(props){
         super(props)
@@ -49,17 +50,38 @@ class Section extends React.Component{
         //LINKS
         let linkElements = (<div></div>)
         if (typeof this.props[name]["links"] !== 'undefined'){
-
+            
             const links = this.props[name]["links"]
-            linkElements = links.map((link)=>
-                <div key={Object.keys(link)[0] + "key for " + name}>
-                    <div>
-                        
-                        {Object.keys(link)[0]}: <a href = {link[Object.keys(link)[0]]}>{link[Object.keys(link)[0]]}</a>
-                    </div>
+            if (links[0][Object.keys(links[0])[0]]["download"] == ""){
 
-                </div>  
-            )
+                linkElements = links.map((link)=>
+                    
+                    <div key={Object.keys(link)[0] + "key for " + name}>
+    
+                        <div>
+                            
+                            {Object.keys(link)[0]}: <a href = {link[Object.keys(link)[0]]["link"]} 
+                            target="_blank" 
+                            >{link[Object.keys(link)[0]]["link"]} </a>
+                        </div>
+    
+                    </div>  
+                )
+            } else {
+                linkElements = links.map((link)=>
+                    
+                    <div key={Object.keys(link)[0] + "key for " + name}>
+    
+                        <div>
+                            
+                            {Object.keys(link)[0]}: <a href = {require('../AWSCert.pdf')} 
+                            target="_blank" download = {link[Object.keys(link)[0]]["download"]} 
+                            >Certification{link[Object.keys(link)[0]]["downlaod"]} </a>
+                        </div>
+    
+                    </div>  
+                )                
+            }
             linkElements = (<CustomAcc key = {"key"+name} title="Links">{linkElements}</CustomAcc>)
         }
 
@@ -69,7 +91,9 @@ class Section extends React.Component{
         if (typeof this.props[name]["skills"] !== 'undefined'){
             const skills = this.props[name]["skills"]
             skillElements = (
-                <CustomAcc key={"Skill Elements Custom Acc key" + name} title = "Skills/Technologies">
+                <CustomAcc key={"Skill Elements Custom Acc key" + name} title = "Skills/Technologies"
+                
+                >
                     <Skill_Lang key={"Skill Lang key " + name} {...skills}/>
                 </CustomAcc>
             )

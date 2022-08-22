@@ -126,18 +126,19 @@ class Home extends React.Component{
                 width: 100%;
                 z-index: -2;
 
-               
+            
                 opacity: 0;
-                margin-bottom: 10rem;
+                
 
                 @media screen and (min-width: ${threshold}px){
                    width: 80%;
+                   margin-bottom: 0;
                 }
                 `;
                 const ImageDiv = styled(FakeImaveDiv)`
                     position: fixed;
                     z-index: -5;
-                    opacity: 0.6;
+                    opacity: 1;
 
 
                     @media screen and (min-width: ${threshold}px){
@@ -152,13 +153,13 @@ class Home extends React.Component{
                     font-size: 2rem;
                     text-align: center;
                     bottom: 100px;
-
+                    color: white;
                     @media screen and (min-width: ${threshold}px){
                         bottom: 200px;
                     }`;
                     
                     const SubTextDiv = styled.div`
-                        border-top: 1px solid black;
+                        border-top: 1px solid white;
                         width: 90%;
                         margin-right: auto;
                         margin-left: auto;
@@ -208,7 +209,9 @@ class Home extends React.Component{
                  
 
                 `;
-
+        const CustomA = styled.a`
+        color: white;
+        font-size: 1rem`
 
         const PortfolioElements = Object.keys(PortfolioSections).map((catagory)=>
             <div key={catagory}>
@@ -260,12 +263,28 @@ class Home extends React.Component{
                         <SectionAlert variant = "primary" >Quick Links</SectionAlert>
 
                         <CustomAcc title="LinkedIn">
-                            <a href="https://www.linkedin.com/in/william-bradford-116a401b2/">https://www.linkedin.com/in/william-bradford-116a401b2/</a>
+                            <CustomA href="https://www.linkedin.com/in/william-bradford-116a401b2/">
+                                <strong>
+                                https://www.linkedin.com/in/william-bradford-116a401b2/
+                                    </strong></CustomA>
 
                         </CustomAcc>
                         <CustomAcc title="Github">
-                            <a href="https://github.com/wbradford2001">https://github.com/wbradford2001</a>
+                            <CustomA href="https://github.com/wbradford2001"><strong>
+                            https://github.com/wbradford2001
+                                </strong></CustomA>
+
                         </CustomAcc>
+                        <CustomAcc title="PDF Resume">
+                            <CustomA href = {require("./William's Resume (1).pdf")}
+                            download="William Bradford Resume">
+                                <strong>
+                                Download the pdf
+                                </strong>
+                                </CustomA>
+
+                        </CustomAcc>                        
+
                     </QuickLinks>
                 </RegularDiv>
                 <SkillLangDiv>
