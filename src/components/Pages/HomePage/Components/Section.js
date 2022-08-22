@@ -7,6 +7,10 @@ import styled from 'styled-components';
 import threshold from '../../../../responsive'
 
 class Section extends React.Component{
+    constructor(props){
+        super(props)
+        this.BasicTextRef = React.createRef();
+    }
     render(){
 
         //NAME
@@ -35,7 +39,8 @@ class Section extends React.Component{
         }
         
         //BASIC TEXT
-        const BasicText = (<div key={"Basic Text" + name}>{this.props[name]["Basic Text"]}</div>)
+        const BasicText = (<div key = {"Basic Text" + name} ref = {this.BasicTextRef}>{this.props[name]["Basic Text"]}</div>)
+
         
 
         //ADVANCED TEXT
@@ -154,6 +159,8 @@ class Section extends React.Component{
                         </NameAndClientCont>
                         <StyledBasicText>
                             {BasicText}
+
+
                         </StyledBasicText>
                     </BasicDiv>
                     <AdvancedDiv>

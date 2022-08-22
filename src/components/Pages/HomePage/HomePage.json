@@ -3,112 +3,119 @@
         [
             {"Porfolio":
                 [       
-                        {"Projects":
+                        {"Personal Projects":
                                 [
-                                    {"spliticist.io": 
+                                    {"spliticist.com": 
                                             {
-                                                "link":"www.google.com",
-                                                "subscript":"Split Tracking Service",
+                                                "link":"https://spliticist.com",
+                                                "subscript":"Workout Split Tracker",
                                                 "ShowPDF":"True",
                                                 "Image":"image",
-                                                "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                                                "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",               
+                                                "Basic Text":"Web application that enables users to log in and create, update, and monitor their workout routines. Currently has 46 accounts signed up.",
+                                                "Advanced Text":"Spliticist enables users to create workout splits and track exercises, sets, and reps for each day. Users log in with email and after verification have full access to a HomePage that displays their current Split as well as an Edit and Contact page. The front-end is made with react and bootstrap, hosted with AWS S3/CloudFront. The backend is using python with AWS Lambda, and the database for users and splits is in AWS DynamoDB. The email backend (for the contact page) is also in python with AWS Lambda and SNS.",               
                                                 "skills":
                                             
                                                 {
-                                                    "Backend":
-                                                        {
-                                                        "Django":{}
-                                                        },
                                                     "Frontend":
                                                         {
-                                                        "React":{},
-                                                        "React-Bootstrap":{}
+                                                        "React(Javascript)":{}
                                                         },
+                                                    "Backend":
+                                                        {
+                                                        "AWS Lambda(Python)":{},
+                                                        "AWS SNS":{}
+                                                        },
+                                                    "Database":{
+                                                        "AWS DynamoDB":{}
+                                                    },
                                                     "Deployment":
                                                         {
-                                                        "Amazon Web Services":
-                                                            {
-                                                            "EC2":{},
-                                                            "Elastic Load Balancer":{}
-                                                            }
-                                                        }
-                                                }
+                                                        "AWS S3/CloudFront":{}
+                                                        }                                                       
+                                                  
+                                                },                                            
+                                                "links":
+                                                    [
+                                                        
+                                                        {"Github Repository":"https://github.com/wbradford2001/spliticist"}
+                                                        
+                                                    ]   
                                             
                                             }
                                     },
-                                    {"Instagram Bot": 
+                                    {"Online Resume": 
                                         {
-                                            "link":"www.google.com",
-                                            "subscript":"Sports Team website",
+                                            "link":"https://williambradfordportfolio.com",
+                                            "subscript":"Personal Website",
                                             "ShowPDF":"True",
                                             "Image":"image",
-                                            "client":
-                                                {
-                                                    "name":"Cosmetics For Change",
-                                                    "profession":"Skincare Organization",
-                                                    "email":"c4c@gmail.com"
-                                                },
-                                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",               
+
+                                            "Basic Text":"The website that you are looking at right now!",
+                                            "Advanced Text":"My web resume is made with react and bootstrap and hosted with AWS CloudFront/S3. The contact page is implemented with AWS lambda with SNS. Feel free to check out the Github Repo Below!",               
                                             "skills":
-                                        
+                                            
                                             {
-                                                "Backend":
-                                                    {
-                                                    "Django":{}
-                                                    },
                                                 "Frontend":
                                                     {
-                                                    "React":{},
-                                                    "React-Bootstrap":{}
+                                                    "React(Javascript)":{}
+                                                    },
+                                                "Backend":
+                                                    {
+                                                    "AWS Lambda(Python)":{},
+                                                    "AWS SNS":{}
                                                     },
                                                 "Deployment":
                                                     {
-                                                    "Amazon Web Services":
-                                                        {
-                                                        "EC2":{},
-                                                        "Elastic Load Balancer":{}
-                                                        }
-                                                    }
-                                            }
+                                                    "AWS S3/CloudFront":{}
+                                                    }                                                       
+                                              
+                                            },                                            
+                                            "links":
+                                                [
+                                                    
+                                                    {"Github Repository":"https://github.com/wbradford2001/webResume"}
+                                                    
+                                                ] 
                                         
                                         }
                                 }
                                 ]},
-                        {"Personal Projects":
+                        {"Work for others":
                             [
-                                {"www.spliticist.com": 
+                                {"Instagram Automation Tool": 
                                     {
-                                        "link":"www.google.com",
-                                        "subscript":"Image file processor",
+                                        
+                                        "subscript":"Web Automation Program",
                                         "ShowPDF":"True",
                                         "Image":"image",
-                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "client":
+                                                {
+                                                    "name":"Spartan Sports Medicine",
+                                                    "profession":"Online Workout Program Seller",
+                                                    "email":"spartansportsmedicine@gmail.com"
+                                                },
+                                        "Basic Text":"Web automation program that likes instagram posts in accounts that are likely to follow back. The program was used by Spartan Sports Medicine (@spartan_sportsmedicine) to gain 800 followers in just 42 days",
+                                        "Advanced Text":"Given an account you want to gain followers for, you select a similar account and scrape all of the followers of the similar account. You then visit each followers page, liking the first 3 posts. Upon seeing the account popup on their instagram for liking their photos, the thinking is that since they already follow a similar account, they are likely to follow your account when they come across it. This program was used to gain @spartan_sportsmedicine account to 800 followers in just 42 days (Spartan Programs no longer sells workout programs so they opted to discontinue). It runs with 2 EC2 instances. One instace scrapes followers and pushes them to a AWS SQS. Another instance polls the qeueu and likes posts with selenium web driver.",
                                         "links":
                                             [
-                                                {"Github":"www.github.com"}
+                                                {"Spartan Sports Medicine Instagram":"https://www.instagram.com/spartan_sportsmedicine/"},
+                                                {"Github":"https://github.com/wbradford2001/SpartanIGBot"}
                                             ],                
                                         "skills":
                                             
                                             {
                                                 "Backend":
                                                     {
-                                                    "Django":{}
-                                                    },
-                                                "Frontend":
-                                                    {
-                                                    "React":{},
-                                                    "React-Bootstrap":{}
+                                                    "AWS SQS":{},
+                                                    "Python":{}
                                                     },
                                                 "Deployment":
                                                     {
-                                                    "Amazon Web Services":
-                                                        {
-                                                        "EC2":{},
-                                                        "Elastic Load Balancer":{}
-                                                        }
+                                                    "AWS EC2":{}
+                                                    },
+                                                "Web Automation":
+                                                    {
+                                                    "Selenium":{}
                                                     }
                                             }
                                     
@@ -117,77 +124,27 @@
                             ]},
                         {"Team Projects":
                             [
-                                {"www.h4h.com": 
+                               
+                                {"UC Davis 3D BioPrinter Firmware": 
                                     {
-                                        "link":"www.google.com",
-                                        "subscript":"Healthcare Organization website",
+                                        "subscript":"Adruino Microcontroller Firmware",
                                         "ShowPDF":"True",
                                         "Image":"image",
-                                        "client":
-                                            {
-                                                "name":"H4H clinic",
-                                                "profession":"Clinic",
-                                                "email":"wbr@gmail.com"
-                                            },
-                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",             
-                                        "skills":
-                                            
-                                            {
-                                                "Backend":
-                                                    {
-                                                    "Django":{}
-                                                    },
-                                                "Frontend":
-                                                    {
-                                                    "React":{},
-                                                    "React-Bootstrap":{}
-                                                    },
-                                                "Deployment":
-                                                    {
-                                                    "Amazon Web Services":
-                                                        {
-                                                        "EC2":{},
-                                                        "Elastic Load Balancer":{}
-                                                        }
-                                                    }
-                                            }
-                                    
-                                    }
-                                },
-                                {"3D BioPrinter Firmware": 
-                                    {
-                                        "ShowPDF":"True",
-                                        "Image":"image",
-                                        "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                                        "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                                        "Basic Text":"Funded by the BioInnovation Group, the UCD BioPrinter Team seeks to make a 3D printer that can 3D print a scaffold to hold a cellular matrix. As team lead of the Electric Team, I am responsible for my team uploading the software and configuring the electronics of the printer.",
+                                        "Advanced Text":"The UC Davis BioPrinter research team is a division of the UCD BioInnovation Group that aims to create a 3D printer that can 3D print a scaffold to house a living cellular matrix. Using an adruino microcontroller(and a R.A.M.P.S. shield), our printer is fully capable of printing a 3D lattice structure. I am the team lead for the electric team, which means I am responsible for the electronics of the printer(including uploading the C/C++ software to the processor). Please see the github repository below for the current printer configuration.",
                                         "links":
                                             [
                                                 
-                                                {"Github":"www.github.com"}
+                                                {"Github":"https://github.com/wbradford2001/BioPrinterUCDavis"},
+                                                {"BioInnovation HomePage": "https://bigucd.com/programs/research"}
                                                 
                                             ],                
                                             "skills":
                                             
                                             {
-                                                "Backend":
-                                                    {
-                                                    "Django":{}
-                                                    },
-                                                "Frontend":
-                                                    {
-                                                    "React":{},
-                                                    "React-Bootstrap":{}
-                                                    },
-                                                "Deployment":
-                                                    {
-                                                    "Amazon Web Services":
-                                                        {
-                                                        "EC2":{},
-                                                        "Elastic Load Balancer":{}
-                                                        }
+                                                "C/C++":{}
                                                     }
-                                            }
+                                            
                                     
                                     }
                                 }
@@ -201,87 +158,40 @@
                             "ShowPDF":"True",
                             "Image":"image",
 
-                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
+                            "Basic Text":"As Team lead of the Electric Team, I was responsible for our team congifuring the electronics and software of the arduio processor on the printer(See above section in portfolio)",
+                            "Advanced Text":"My activities as Team Lead included holding team meetings and building the printer. We used a MonoPrice Mini Printer, stripped the extruder, reset the processor, and uploaded our own software(we used marlin firmware, a popular 3D printing library) to the printer. The motors, kinematics, and everything else works just fine, and we are sorting out the details of extruding the filament",
                             "links":
                                 [
                                     
-                                    {"Github":"www.github.com"}
+                                    {"BioInnovation HomePage": "https://bigucd.com/programs/research"}
                                     
-                                ],                
-                                "skills":
-                                            
-                                {
-                                    "Backend":
-                                        {
-                                        "Django":{}
-                                        },
-                                    "Frontend":
-                                        {
-                                        "React":{},
-                                        "React-Bootstrap":{}
-                                        },
-                                    "Deployment":
-                                        {
-                                        "Amazon Web Services":
-                                            {
-                                            "EC2":{},
-                                            "Elastic Load Balancer":{}
-                                            }
-                                        }
-                                }
+                                ]
                         
                         }
-                    },
-                    {"Knee Transplant Data Preparation": 
-                        {
-                            "ShowPDF":"True",
-                            "Image":"image",
-
-                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "links":
-                                [
-                                    
-                                    {"Hull Lab":"www.Hull Lab.com"}
-                                    
-                                ]                          
-                        }
-                    }                    
+                    }                 
                 ]
             },
             {"Education":
                 [
-                    {"UC Davis": 
+                    {"B.S. Computer Science": 
                     
                         {
-                            "subscript":"B.S, Computer Science",
+                            "subscript":"UC Davis",
                             "ShowPDF":"True",
                             "Image":"image",
-                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "links":
-                                [
-                                    
-                                    {"Transcript":"www.transcript.com"}
-                                    
-                                ]
+                            "Basic Text":"3.92 GPA",
+                            "Advanced Text":"Expected June 2024"
                         }
                     }, 
-                    {"AWS certified developer": 
+                    {"AWS Certified Developer Associate": 
                     
                         {
-                            "subscript":"B.S, Computer Science",
+                            "subscript":"",
                             "ShowPDF":"True",
                             "Image":"image",
-                            "Basic Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "Advanced Text":"Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.Quis ex culpa et cillum magna dolore anim sint. Non deserunt ullamco fugiat ea ipsum veniam exercitation pariatur. Velit non duis eu exercitation ullamco pariatur anim. Nulla tempor sunt tempor Lorem enim esse ipsum esse occaecat cillum cillum excepteur excepteur.",
-                            "links":
-                                [
-                                    
-                                    {"Transcript":"www.transcript.com"}
-                                    
-                                ]
+                            "Basic Text":"",
+                            "Advanced Text":"Achieved on July 20, 2022"
+
                         }
                     }
                 ]   
@@ -291,56 +201,54 @@
         ],
     "Skills":
         {
-            "Skills":
-                
+            "Skills":         
                     {
-                    "Backend-4":
+                    "Deployment-4":
                         {
-                        "Django":{}
+                        "AWS-4":{},
+                        
+                        "Docker-3":{}
                         },
                     "Frontend-4":
                         {
-                        "React":{},
-                        "React-Bootstrap":{}
+                        "React-3":{},
+                        "Bootstrap-1":{}
                         },
-                    "Database-3":
+                    "Backend-3":
                         {
-                        "PostGRES":{}
-                        },
-                    "Deployment-5":
-                        {
-                        "Amazon Web Services":
-                            {
-                            "EC2":{}, "Elastic Load Balancer":{},"Cloud Watch":{}, "RDS":{}
-                            },
-                        "Docker":{}
+                        "Django-1":{}
                         },
                     "Other":
                         {
-                        "Source Control-3":
+                        
+                        "Web Automation-4":
                             {
-                            "Git/Github":{}
-                            }
+                            "Selenium":{}
+                            },
+                        
+                        
+                            "Data Analysis-1":
+                                {
+                                "Python(Numpy, Pandas, Matplotlib)":{}
+                                }
+                        
+                            
+                                
                         }
-                    }
-                ,
+                    },
             "Languages":
-            
-                {
+                    {
                 "Python-5":
                         {
-                        "Numpy":{},
-                        "Pandas":{}
                         },
                 "Javascript-4":
                         {
-                        "React":{},
-                        "React-Bootstrap":{}
+
                         },
                 "HTML-3":{},
                 "CSS-2":{},
-                "C-2":{}
-                }
+                "C":{}
+                    }
             
         }
 }

@@ -71,7 +71,7 @@ class About extends React.Component{
         
         `;
         const TextStyle= styled.div`
-            font-size: 1rem;
+            font-size: 0.2rem;
             text-align: center;
 
             animation-name: mymove;

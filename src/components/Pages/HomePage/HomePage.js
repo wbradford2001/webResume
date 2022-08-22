@@ -125,8 +125,10 @@ class Home extends React.Component{
                 const FakeImaveDiv = styled.img`
                 width: 100%;
                 z-index: -2;
-                opacity: 0;
 
+               
+                opacity: 0;
+                margin-bottom: 10rem;
 
                 @media screen and (min-width: ${threshold}px){
                    width: 80%;
@@ -238,7 +240,9 @@ class Home extends React.Component{
                     <TextDiv>
                     William Bradford
                     <SubTextDiv>
+                        <strong>
                         AWS Certified Developer - Associate
+                        </strong>
                     </SubTextDiv>
                     </TextDiv>
 
