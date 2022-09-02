@@ -105,7 +105,7 @@ class Section extends React.Component{
         let OuterDiv = styled.div`
             border-top: 1px solid grey;
             margin: 0px;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.95);
 
 
             

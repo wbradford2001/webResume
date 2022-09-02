@@ -3,52 +3,102 @@
         [
             {"Porfolio":
                 [       
+                    {"Work for others":
+                    [
+                        {"spliticist.com": 
+                        {
+                            "link":"https://spliticist.com",
+                            "subscript":"Workout Split Tracker",
+                            "ShowPDF":"True",
+                            "Image":"image",
+                            "client":
+                            {
+                                "name":"Ivan Chavez",
+                                "profession":"Personal Trainer",
+                                "email":"ichavez@icloud.com"
+                            },                            
+                            "Basic Text":"Web application that enables users to log in and create, update, and monitor their workout routines. Currently has 46 accounts signed up.",
+                            "Advanced Text":"Spliticist enables users to create workout splits and track exercises, sets, and reps for each day. Users log in with email and after verification have full access to a HomePage that displays their current Split as well as an Edit and Contact page. The front-end is made with react and bootstrap, hosted with AWS S3/CloudFront. The backend is using python with AWS Lambda, and the database for users and splits is in AWS DynamoDB. The email backend (for the contact page) is also in python with AWS Lambda and SNS.",               
+                            "skills":
+                        
+                            {
+                                "Frontend":
+                                    {
+                                    "React(Javascript)":{}
+                                    },
+                                "Backend":
+                                    {
+                                    "AWS Lambda(Python)":{},
+                                    "AWS SNS":{}
+                                    },
+                                "Database":{
+                                    "AWS DynamoDB":{}
+                                },
+                                "Deployment":
+                                    {
+                                    "AWS S3/CloudFront":{}
+                                    }                                                       
+                              
+                            },                                            
+                            "links":
+                                [
+                                    
+                                    {
+                                        "Github Repository":
+                                            {
+                                                "link":"https://github.com/wbradford2001/spliticist",
+                                                "download":""
+                                            }
+                                    }
+                                    
+                                ]   
+                        
+                        }
+                },                        
+                        {"Instagram Automation Tool": 
+                            {
+                                
+                                "subscript":"Web Automation Program",
+                                "ShowPDF":"True",
+                                "Image":"image",
+                                "client":
+                                        {
+                                            "name":"Spartan Sports Medicine",
+                                            "profession":"Online Workout Program Seller",
+                                            "email":"spartansportsmedicine@gmail.com"
+                                        },
+                                "Basic Text":"Web automation program that likes instagram posts in accounts that are likely to follow back. The program was used by Spartan Sports Medicine (@spartan_sportsmedicine) to gain 800 followers in just 42 days",
+                                "Advanced Text":"Given an account you want to gain followers for, you select a similar account and scrape all of the followers of the similar account. You then visit each followers page, liking the first 3 posts. Upon seeing the account popup on their instagram for liking their photos, the thinking is that since they already follow a similar account, they are likely to follow your account when they come across it. This program was used to gain @spartan_sportsmedicine account to 800 followers in just 42 days (Spartan Programs no longer sells workout programs so they opted to discontinue). It runs with 2 EC2 instances. One instace scrapes followers and pushes them to a AWS SQS. Another instance polls the qeueu and likes posts with selenium web driver.",
+                                "links":
+                                    [
+                                        {"Spartan Sports Medicine Instagram":{"link":"https://www.instagram.com/spartan_sportsmedicine/","download":""}
+                                        },
+                                        {"Github":{"link":"https://github.com/wbradford2001/SpartanIGBot","download":""}}
+                                    ],                
+                                "skills":
+                                    
+                                    {
+                                        "Backend":
+                                            {
+                                            "AWS SQS":{},
+                                            "Python":{}
+                                            },
+                                        "Deployment":
+                                            {
+                                            "AWS EC2":{}
+                                            },
+                                        "Web Automation":
+                                            {
+                                            "Selenium":{}
+                                            }
+                                    }
+                            
+                            }
+                        }
+                    ]},                    
                         {"Personal Projects":
                                 [
-                                    {"spliticist.com": 
-                                            {
-                                                "link":"https://spliticist.com",
-                                                "subscript":"Workout Split Tracker",
-                                                "ShowPDF":"True",
-                                                "Image":"image",
-                                                "Basic Text":"Web application that enables users to log in and create, update, and monitor their workout routines. Currently has 46 accounts signed up.",
-                                                "Advanced Text":"Spliticist enables users to create workout splits and track exercises, sets, and reps for each day. Users log in with email and after verification have full access to a HomePage that displays their current Split as well as an Edit and Contact page. The front-end is made with react and bootstrap, hosted with AWS S3/CloudFront. The backend is using python with AWS Lambda, and the database for users and splits is in AWS DynamoDB. The email backend (for the contact page) is also in python with AWS Lambda and SNS.",               
-                                                "skills":
-                                            
-                                                {
-                                                    "Frontend":
-                                                        {
-                                                        "React(Javascript)":{}
-                                                        },
-                                                    "Backend":
-                                                        {
-                                                        "AWS Lambda(Python)":{},
-                                                        "AWS SNS":{}
-                                                        },
-                                                    "Database":{
-                                                        "AWS DynamoDB":{}
-                                                    },
-                                                    "Deployment":
-                                                        {
-                                                        "AWS S3/CloudFront":{}
-                                                        }                                                       
-                                                  
-                                                },                                            
-                                                "links":
-                                                    [
-                                                        
-                                                        {
-                                                            "Github Repository":
-                                                                {
-                                                                    "link":"https://github.com/wbradford2001/spliticist",
-                                                                    "download":""
-                                                                }
-                                                        }
-                                                        
-                                                    ]   
-                                            
-                                            }
-                                    },
+                                   
                                     {"Online Resume": 
                                         {
                                             "link":"https://williambradfordportfolio.com",
@@ -86,49 +136,7 @@
                                         }
                                 }
                                 ]},
-                        {"Work for others":
-                            [
-                                {"Instagram Automation Tool": 
-                                    {
-                                        
-                                        "subscript":"Web Automation Program",
-                                        "ShowPDF":"True",
-                                        "Image":"image",
-                                        "client":
-                                                {
-                                                    "name":"Spartan Sports Medicine",
-                                                    "profession":"Online Workout Program Seller",
-                                                    "email":"spartansportsmedicine@gmail.com"
-                                                },
-                                        "Basic Text":"Web automation program that likes instagram posts in accounts that are likely to follow back. The program was used by Spartan Sports Medicine (@spartan_sportsmedicine) to gain 800 followers in just 42 days",
-                                        "Advanced Text":"Given an account you want to gain followers for, you select a similar account and scrape all of the followers of the similar account. You then visit each followers page, liking the first 3 posts. Upon seeing the account popup on their instagram for liking their photos, the thinking is that since they already follow a similar account, they are likely to follow your account when they come across it. This program was used to gain @spartan_sportsmedicine account to 800 followers in just 42 days (Spartan Programs no longer sells workout programs so they opted to discontinue). It runs with 2 EC2 instances. One instace scrapes followers and pushes them to a AWS SQS. Another instance polls the qeueu and likes posts with selenium web driver.",
-                                        "links":
-                                            [
-                                                {"Spartan Sports Medicine Instagram":{"link":"https://www.instagram.com/spartan_sportsmedicine/","download":""}
-                                                },
-                                                {"Github":{"link":"https://github.com/wbradford2001/SpartanIGBot","download":""}}
-                                            ],                
-                                        "skills":
-                                            
-                                            {
-                                                "Backend":
-                                                    {
-                                                    "AWS SQS":{},
-                                                    "Python":{}
-                                                    },
-                                                "Deployment":
-                                                    {
-                                                    "AWS EC2":{}
-                                                    },
-                                                "Web Automation":
-                                                    {
-                                                    "Selenium":{}
-                                                    }
-                                            }
-                                    
-                                    }
-                                }
-                            ]},
+
                         {"Team Projects":
                             [
                                

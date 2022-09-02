@@ -98,6 +98,7 @@ class Home extends React.Component{
 
         
         const MasterDiv = styled.div`
+       
             height: 92vh;
             overflow: auto;
             display: block;
