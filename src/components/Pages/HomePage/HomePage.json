@@ -3,7 +3,7 @@
         [
             {"Porfolio":
                 [       
-                    {"Work for others":
+                    {"Projects":
                     [
                         {"spliticist.com": 
                         {
@@ -142,11 +142,11 @@
                                
                                 {"UC Davis 3D BioPrinter Firmware": 
                                     {
-                                        "subscript":"Adruino Microcontroller Firmware",
+                                        "subscript":"Arduino Microcontroller Firmware",
                                         "ShowPDF":"True",
                                         "Image":"image",
                                         "Basic Text":"Funded by the BioInnovation Group, the UCD BioPrinter Team seeks to make a 3D printer that can 3D print a scaffold to hold a cellular matrix. As team lead of the Electric Team, I am responsible for my team uploading the software and configuring the electronics of the printer.",
-                                        "Advanced Text":"The UC Davis BioPrinter research team is a division of the UCD BioInnovation Group that aims to create a 3D printer that can 3D print a scaffold to house a living cellular matrix. Using an adruino microcontroller(and a R.A.M.P.S. shield), our printer is fully capable of printing a 3D lattice structure. I am the team lead for the electric team, which means I am responsible for the electronics of the printer(including uploading the C/C++ software to the processor). Please see the github repository below for the current printer configuration.",
+                                        "Advanced Text":"The UC Davis BioPrinter research team is a division of the UCD BioInnovation Group that aims to create a 3D printer that can 3D print a scaffold to house a living cellular matrix. Using an arduino microcontroller(and a R.A.M.P.S. shield), our printer is fully capable of printing a 3D lattice structure. I am the team lead for the electric team, which means I am responsible for the electronics of the printer(including uploading the C/C++ software to the processor). Please see the github repository below for the current printer configuration.",
                                         "links":
                                             [
                                                 
