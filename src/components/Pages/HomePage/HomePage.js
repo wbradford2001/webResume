@@ -149,12 +149,13 @@ class Home extends React.Component{
                     
                 const TextDiv = styled.div`
                     display: block;
-                    position: relative;
-                    height: 0;
+                    // position: relative;
+                    // height: 0;
                     font-size: 2rem;
                     text-align: center;
-                    bottom: 100px;
+                    // bottom: 100px;
                     color: white;
+                    margin: 2rem;
                     @media screen and (min-width: ${threshold}px){
                         bottom: 200px;
                     }`;
@@ -238,8 +239,8 @@ class Home extends React.Component{
             <MasterDiv >
                 
                 <RegularDiv>
-                <ImageDiv src={require('../../../images/Cropped.png')}/>
-                <FakeImaveDiv src={require('../../../images/Cropped.png')}/>
+                <ImageDiv src={require('../../../images/pexels-benjamin-suter-3617500.jpg')}/>
+                {/* <FakeImaveDiv src={require('../../../images/Cropped.png')}/>  */}
 
                     <TextDiv>
                     William Bradford
