@@ -73,7 +73,7 @@
                                     [
                                         {"Spartan Sports Medicine Instagram":{"link":"https://www.instagram.com/spartan_sportsmedicine/","download":""}
                                         },
-                                        {"Github":{"link":"https://github.com/wbradford2001/SpartanIGBot","download":""}}
+                                        {"GitHub repo":{"link":"https://github.com/wbradford2001/SpartanIGBot","download":""}}
                                     ],                
                                 "skills":
                                     
@@ -129,50 +129,13 @@
                                             "links":
                                                 [
                                                     
-                                                    {"Github Repository":{"link":"https://github.com/wbradford2001/webResume","download":""}}
+                                                    {"GitHub repo":{"link":"https://github.com/wbradford2001/webResume","download":""}}
                                                     
                                                 ] 
                                         
                                         }
                                 }
-                                ]},
-
-                        {"Team Projects":
-                            [
-                               
-                                {"UC Davis 3D BioPrinter Firmware": 
-                                    {
-                                        "subscript":"Arduino Microcontroller Firmware",
-                                        "ShowPDF":"True",
-                                        "Image":"image",
-                                        "Basic Text":"Funded by the BioInnovation Group, the UCD BioPrinter Team seeks to make a 3D printer that can 3D print a scaffold to hold a cellular matrix. As team lead of the Electric Team, I am responsible for my team uploading the software and configuring the electronics of the printer.",
-                                        "Advanced Text":"The UC Davis BioPrinter research team is a division of the UCD BioInnovation Group that aims to create a 3D printer that can 3D print a scaffold to house a living cellular matrix. Using an arduino microcontroller(and a R.A.M.P.S. shield), our printer is fully capable of printing a 3D lattice structure. I am the team lead for the electric team, which means I am responsible for the electronics of the printer(including uploading the C/C++ software to the processor). Please see the github repository below for the current printer configuration.",
-                                        "links":
-                                            [
-                                                
-                                                {"Github":
-                                                    {
-                                                        "link":"https://github.com/wbradford2001/BioPrinterUCDavis",
-                                                        "download":""
-                                                    }
-                                                },
-                                                {"BioInnovation HomePage":      
-                                                {"link":"https://bigucd.com/programs/research",
-                                                "download":""
-                                                }
-                                                }
-                                                
-                                            ],                
-                                            "skills":
-                                            
-                                            {
-                                                "C/C++":{}
-                                                    }
-                                            
-                                    
-                                    }
-                                }
-                            ]}                       
+                                ]}                    
                 ]     
             },
             {"Experience": 
@@ -182,12 +145,22 @@
                             "ShowPDF":"True",
                             "Image":"image",
 
-                            "Basic Text":"As Team lead of the Electric Team, I was responsible for our team configuring the electronics and software of the arduino processor on the printer(See above section in portfolio)",
-                            "Advanced Text":"My activities as Team Lead included holding team meetings and building the printer. We used a MonoPrice Mini Printer, stripped the extruder, reset the processor, and uploaded our own software(we used marlin firmware, a popular 3D printing library) to the printer. The motors, kinematics, and everything else works just fine, and we are sorting out the details of extruding the filament",
+                            "Basic Text":"As Team Lead of the Electric Team, I am responsible for our team configuring the firmware, electronics and motor kinematics of our 3D BioPrinter",
+                            "Advanced Text":"Funded by the UCD BioInnovation group, the BioPrinter research team aims to engineer a 3D printer that can print a scaffold to house a cellular matrix. My activities as Team Lead of the electric team include holding team meetings, writing code, and configuring the electronics. We used an Arduino processor with a R.A.M.P.S. shield. Using an off the shelf monoprice V2 printer, we stripped it of the extruder and reset the Arduino so that we could upload our own firmware (we used marlin firmware, a popular 3D printing library). The motor kinematics and electronics were all configured by me. See my GitHub repo for the code.",
+                            "skills":
+                                            
+                            {
+                                "C++":
+                                    {
+                                   
+                                    }                                                      
+                              
+                            },                            
                             "links":
                                 [
                                     
-                                    {"BioInnovation HomePage":  {"link":"https://bigucd.com/programs/research","download":""}}
+                                    {"BioInnovation HomePage":  {"link":"https://bigucd.com/programs/research","download":""}},
+                                    {"GitHub repo":  {"link":"https://github.com/wbradford2001/BioPrinterUCDavis","download":""}}
                                     
                                 ]
                         
