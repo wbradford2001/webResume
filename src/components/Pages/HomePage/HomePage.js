@@ -265,10 +265,10 @@ class Home extends React.Component{
                         <SectionAlert variant = "primary" >Quick Links</SectionAlert>
 
                         <CustomAcc title="LinkedIn">
-                            <CustomA href="https://www.linkedin.com/in/william-bradford-116a401b2/">
+                            <CustomA href="https://www.linkedin.com/in/williamjbradford/">
                                 <strong>
-                                https://www.linkedin.com/in/william-bradford-116a401b2/
-                                    </strong></CustomA>
+                                https://www.linkedin.com/in/williamjbradford/                                   
+                                 </strong></CustomA>
 
                         </CustomAcc>
                         <CustomAcc title="Github">
