@@ -71,7 +71,7 @@ class Home extends React.Component{
         const LanguageElements = <Skill_Lang {...languages}/>
 
         //PORTFOLIO
-        const Portfolio = data["Sections"][0]["Porfolio"]
+        const Portfolio = data["Sections"][1]["Porfolio"]
         const PortfolioSections = {}
         for (let section of Portfolio){
             let name = Object.keys(section)[0]
@@ -84,7 +84,7 @@ class Home extends React.Component{
 
 
         //EXPERIENCE
-        const Experience = data["Sections"][1]["Experience"]
+        const Experience = data["Sections"][0]["Experience"]
         const ExperienceElements = Experience.map((section, index)=>
             <Section key={index} {...section}></Section>
             )
@@ -110,12 +110,12 @@ class Home extends React.Component{
         
         `;
         const RegularDiv = styled.div`
-            animation-name: mymove;
-            animation-duration: 1.5s;
-            @keyframes mymove {
-                from {opacity: 0;}
-                to {opacity: 1;}
-                }
+            // animation-name: mymove;
+            // animation-duration: 1.5s;
+            // @keyframes mymove {
+            //     from {opacity: 0;}
+            //     to {opacity: 1;}
+            //     }
             width: 100%;
             @media screen and (min-width: ${threshold}px){
                 height: 100%;
@@ -128,7 +128,7 @@ class Home extends React.Component{
                 z-index: -2;
 
             
-                opacity: 0;
+                
                 
 
                 @media screen and (min-width: ${threshold}px){
@@ -190,16 +190,16 @@ class Home extends React.Component{
 
             const SkillLangDiv = styled.div`
                 overflow: auto;
-                opacity: 0;
-                animation-name: mymove;
-                animation-duration: 2s;
-                animation-delay: 0.5s;
-                animation-iteration-count:1;
-                animation-fill-mode: forwards;
-                @keyframes mymove {
-                    from {opacity: 0;}
-                    to {opacity: 1;}
-                    }
+                // opacity: 0;
+                // animation-name: mymove;
+                // animation-duration: 2s;
+                // animation-delay: 0.5s;
+                // animation-iteration-count:1;
+                // animation-fill-mode: forwards;
+                // @keyframes mymove {
+                //     from {opacity: 0;}
+                //     to {opacity: 1;}
+                //     }
                
                 @media screen and (min-width: ${threshold}px){
                     width: 20%;
@@ -239,7 +239,7 @@ class Home extends React.Component{
             <MasterDiv >
                 
                 <RegularDiv>
-                <ImageDiv src={require('../../../images/pexels-benjamin-suter-3617500.jpg')}/>
+                <ImageDiv src={require('./pexels-benjamin-suter-3617500.jpg')}/>
                 {/* <FakeImaveDiv src={require('../../../images/Cropped.png')}/>  */}
 
                     <TextDiv>
@@ -251,12 +251,12 @@ class Home extends React.Component{
                     </SubTextDiv>
                     </TextDiv>
 
-                        <FirstSectionAlert variant = "primary" >
-                        Portfolio</FirstSectionAlert>
+                        <FirstSectionAlert variant = "primary" >Experience</FirstSectionAlert>
+                        {ExperienceElements}
+                        <SectionAlert variant = "primary" >
+                        Portfolio</SectionAlert>
                         {PortfolioElements}
 
-                        <SectionAlert variant = "primary" >Experience</SectionAlert>
-                        {ExperienceElements}
 
                         <SectionAlert variant = "primary" >Education/Certifications</SectionAlert>
                             {EducationElements}
@@ -278,7 +278,7 @@ class Home extends React.Component{
 
                         </CustomAcc>
                         <CustomAcc title="PDF Resume">
-                            <CustomA href = {require("./William's Resume (1).pdf")}
+                            <CustomA href = {require("./William's Resume.pdf")}
                             download="William Bradford Resume">
                                 <strong>
                                 Download the pdf

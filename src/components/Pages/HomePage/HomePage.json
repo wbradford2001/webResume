@@ -1,9 +1,45 @@
 {
     "Sections":
-        [
+    [
+            {"Experience": 
+                [
+                    {"Part Time Developer": 
+                        {
+                            "subscript":"Parking Tree",
+                            "ShowPDF":"True",
+                            "Image":"image",
+            
+                            "Basic Text":"Software Engineer for Parking App startup (see https://parkingtree.simplypermits.com/). I was responsible for building a python application that parses Stripe payments",
+                            "Advanced Text":"As a developer for Parking Tree, I got the chance to be a part of a fast moving startup. I build a python program that process's Stripe payments as well as parking spot information to identify inconsistencies and inform the Founders.",
+                            "skills":
+                                            
+                            {
+                                "Python":
+                                    {
+                                   
+                                    }  
+                                    ,
+                                "AWS":
+                                    {
+                                    "AWS lambda":{},
+                                    "AWS SNS":{}
+                                    }                                                     
+                              
+                            },                            
+                            "links":
+                                [
+                                    
+                                    {"Parking Tree Home Page":  {"link":"https://parkingtree.simplypermits.com/","download":""}}
+                                    
+                                ]
+                        
+                        }
+                    }                 
+                ]
+            },
             {"Porfolio":
                 [       
-                    {"Projects":
+                    {"Freelance Projects":
                     [
                         {"spliticist.com": 
                         {
@@ -67,8 +103,8 @@
                                             "profession":"Online Workout Program Seller",
                                             "email":"spartansportsmedicine@gmail.com"
                                         },
-                                "Basic Text":"Web automation program that likes instagram posts in accounts that are likely to follow back. The program was used by Spartan Sports Medicine (@spartan_sportsmedicine) to gain 800 followers in just 42 days",
-                                "Advanced Text":"Given an account you want to gain followers for, you select a similar account and scrape all of the followers of the similar account. You then visit each followers page, liking the first 3 posts. Upon seeing the account popup on their instagram for liking their photos, the thinking is that since they already follow a similar account, they are likely to follow your account when they come across it. This program was used to gain @spartan_sportsmedicine account to 800 followers in just 42 days (Spartan Programs no longer sells workout programs so they opted to discontinue). It runs with 2 EC2 instances. One instace scrapes followers and pushes them to a AWS SQS. Another instance polls the qeueu and likes posts with selenium web driver.",
+                                "Basic Text":"Web automation program that Organincally grows follower count of target Instagram account. The program was used by Spartan Sports Medicine (@spartan_sportsmedicine)",
+                                "Advanced Text":"Python application that uses Selenium Web Driver and runs on AWS that organically grows follower count of target account.",
                                 "links":
                                     [
                                         {"Spartan Sports Medicine Instagram":{"link":"https://www.instagram.com/spartan_sportsmedicine/","download":""}
@@ -83,9 +119,10 @@
                                             "AWS SQS":{},
                                             "Python":{}
                                             },
-                                        "Deployment":
+                                        "AWS":
                                             {
-                                            "AWS EC2":{}
+                                            "AWS EC2":{},
+                                            "AWS SQS":{}
                                             },
                                         "Web Automation":
                                             {
@@ -137,36 +174,6 @@
                                 }
                                 ]}                    
                 ]     
-            },
-            {"Experience": 
-                [
-                    {"UCD BioPrinter Team Lead": 
-                        {
-                            "ShowPDF":"True",
-                            "Image":"image",
-
-                            "Basic Text":"As Team Lead of the Electric Team, I am responsible for our team configuring the firmware, electronics and motor kinematics of our 3D BioPrinter",
-                            "Advanced Text":"Funded by the UCD BioInnovation group, the BioPrinter research team aims to engineer a 3D printer that can print a scaffold to house a cellular matrix. My activities as Team Lead of the electric team include holding team meetings, writing code, and configuring the electronics. We used an Arduino processor with a R.A.M.P.S. shield. Using an off the shelf monoprice V2 printer, we stripped it of the extruder and reset the Arduino so that we could upload our own firmware (we used marlin firmware, a popular 3D printing library). The motor kinematics and electronics were all configured by me. See my GitHub repo for the code.",
-                            "skills":
-                                            
-                            {
-                                "C++":
-                                    {
-                                   
-                                    }                                                      
-                              
-                            },                            
-                            "links":
-                                [
-                                    
-                                    {"BioInnovation HomePage":  {"link":"https://bigucd.com/programs/research","download":""}},
-                                    {"GitHub repo":  {"link":"https://github.com/wbradford2001/BioPrinterUCDavis","download":""}}
-                                    
-                                ]
-                        
-                        }
-                    }                 
-                ]
             },
             {"Education":
                 [
