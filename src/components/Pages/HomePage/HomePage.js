@@ -278,7 +278,7 @@ class Home extends React.Component{
 
                         </CustomAcc>
                         <CustomAcc title="PDF Resume">
-                            <CustomA href = {require("./William's Resume.pdf")}
+                            <CustomA href = {require("./William's Resume (1).pdf")}
                             download="William Bradford Resume">
                                 <strong>
                                 Download the pdf

@@ -3,13 +3,13 @@
     [
             {"Experience": 
                 [
-                    {"Part Time Developer": 
+                    {"Python/AWS Developer": 
                         {
                             "subscript":"Parking Tree",
                             "ShowPDF":"True",
                             "Image":"image",
             
-                            "Basic Text":"Software Engineer for Parking App startup (see https://parkingtree.simplypermits.com/). I was responsible for building a python application that parses Stripe payments",
+                            "Basic Text":"AWS + python Developer for Parking App startup (see https://parkingtree.simplypermits.com/). I was responsible for building a python application that parses Stripe payments",
                             "Advanced Text":"As a developer for Parking Tree, I got the chance to be a part of a fast moving startup. I build a python program that process's Stripe payments as well as parking spot information to identify inconsistencies and inform the Founders.",
                             "skills":
                                             
@@ -34,7 +34,38 @@
                                 ]
                         
                         }
-                    }                 
+                    },
+                    {"Software Engineer Intern": 
+                    {
+                        "subscript":"SupportPay.com",
+                        "ShowPDF":"True",
+                        "Image":"image",
+        
+                        "Basic Text":"Software Engineering Intern For SupportPay.com. I am in the process of using React/Javascript to update frontend lead generation tools, as well as optimizing usage of AWS services",
+                        "Advanced Text":"As a part time developer for supportPay, I am currently refactoring various lead generation tools according to a wireframe and React. I will also be consulted to make sure AWS best practices are followed when it comes to security and cost optimization",
+                        "skills":
+                                        
+                        {
+                            "React":
+                                {
+                                    "Javascript":{}
+                                }  
+                                ,
+                            "AWS":
+                                {
+
+                                }                                                     
+                          
+                        },                            
+                        "links":
+                            [
+                                
+                                {"Support Pay":  {"link":"https://supportpay.com/","download":""}}
+                                
+                            ]
+                    
+                    }
+                }                     
                 ]
             },
             {"Porfolio":
@@ -132,47 +163,7 @@
                             
                             }
                         }
-                    ]},                    
-                        {"Personal Projects":
-                                [
-                                   
-                                    {"Online Resume": 
-                                        {
-                                           
-                                            "subscript":"Personal Website",
-                                            "ShowPDF":"True",
-                                            "Image":"image",
-
-                                            "Basic Text":"The website that you are looking at right now!",
-                                            "Advanced Text":"My web resume is made with react and bootstrap and hosted with AWS CloudFront/S3. The contact page is implemented with AWS lambda with SNS. Feel free to check out the Github Repo Below!",               
-                                            "skills":
-                                            
-                                            {
-                                                "Frontend":
-                                                    {
-                                                    "React(Javascript)":{}
-                                                    },
-                                                "Backend":
-                                                    {
-                                                    "AWS Lambda(Python)":{},
-                                                    "AWS SNS":{}
-                                                    },
-                                                "Deployment":
-                                                    {
-                                                    "AWS S3/CloudFront":{}
-                                                    }                                                       
-                                              
-                                            },                                            
-                                            "links":
-                                                [
-                                                    
-                                                    {"GitHub repo":{"link":"https://github.com/wbradford2001/webResume","download":""}}
-                                                    
-                                                ] 
-                                        
-                                        }
-                                }
-                                ]}                    
+                    ]}                  
                 ]     
             },
             {"Education":
@@ -187,7 +178,7 @@
                             "Advanced Text":"Expected June 2024"
                         }
                     }, 
-                    {"AWS Certified Developer Associate": 
+                    {"AWS Certified Developer": 
                     
                         {
                             "subscript":"",
